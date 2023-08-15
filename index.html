@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="./style/products.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <ul class="list">
+        <img class="logo" src="./Assets/Logo/logo.png" alt="" />
+        <li class="mid-header">
+          <input class="search" type="search" placeholder="search" />
+          <img
+            class="search-icon"
+            src="./Assets/Icons/search-icon.png"
+            alt=""
+          />
+        </li>
+        <li class="right-header">
+          <img class="cart-icon" src="./Assets/Icons/cart-icon.png" alt="" />
+          <img class="user-icon" src="./Assets/Icons/user-regular.svg" alt="" />
+          <p class="float"><span class="number">0</span></p>
+        </li>
+      </ul>
+    </nav>
+    <section class="products"></section>
+
+    <script src="./script/cart.js"></script>
+    <script src="./script/product.js"></script>
+  </body>
+</html>
